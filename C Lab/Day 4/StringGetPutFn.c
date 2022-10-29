@@ -19,7 +19,7 @@ void Put(char *S, int n)
 void main()
 {
     int n = 5;
-    char S[5] = {2, 3, 4, 2, 3};
+    char S[5];
 
     Get(S, n);
     Put(S, n);
