@@ -4,7 +4,7 @@ int removeChar(char *s, int a, int b,int n)
 {
     if (b > n)
     {
-        return 0;
+        return 0;   
     }
 
     if (s[a] == s[b])
